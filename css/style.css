@@ -1199,6 +1199,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: rgba(0, 0, 0, 0.7);
   opacity: 1;
   transition: 0.4s;
+  border-radius: 50%;
 }
 
 #team .member:hover .member-info-content {
@@ -1572,4 +1573,25 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 .team{
   max-height: 16rem;
+  /* filter: contrast(100%); */
+  border-radius: 50%;
+}
+.member{
+  border-radius: 50%;
+}
+.view-more{
+  border: 1px solid grey;
+  border-radius: 10px;
+}
+.view-more p{
+  text-align: center;
+  color: #13a456;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+.view-more :hover {
+  background-color: #13a456;
+  color: white;
+  border-radius: 10px;
+  transition: 0.3s ease-in-out;
 }
